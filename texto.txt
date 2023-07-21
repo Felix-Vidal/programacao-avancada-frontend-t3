@@ -1,0 +1,25 @@
+bootstrap - cdm
+style
+script
+fontes - google fontes
+icones - fontawesome
+loader
+paralax
+
+mobile
+<i class="fa-solid fa-mobile-screen-button"></i>
+
+cart-shopping
+<i class="fa-solid fa-cart-shopping"></i>
+
+pincel
+<i class="fa-solid fa-paintbrush"></i>
+
+google
+<i class="fa-brands fa-google"></i>
+
+maos
+<i class="fa-solid fa-handshake-angle"></i>
+
+servidor
+<i class="fa-solid fa-server"></i>

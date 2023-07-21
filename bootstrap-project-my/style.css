@@ -1,0 +1,139 @@
+/* Geral */
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-fluid {
+    padding: 4em 0;
+}
+
+.row {
+    margin: 0;
+}
+
+p, li {
+    color: #0f1026;
+    font-size: 14px;
+}
+
+
+/* Sobre */
+#about-area {
+    background-color: #f2f2f2;
+}
+
+.main-title {
+    margin: 0 0 2em 0;
+    text-align: center;
+    font-size: 35px;
+    color: #0f1026;
+}
+
+.main-title::after {
+    content: "";
+	display: block;
+	border-bottom: 2px solid #000000f8;
+	padding-top: .5rem;
+    margin: auto;
+    width: 100px;
+
+}
+
+.title-uppercase {
+    color: #0f1026;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#about-list {
+    list-style: none;
+    padding: 0;
+}
+
+#about-list i {
+    color: #4973f2;
+    margin-right: 1em;
+}
+
+#about-list li {
+    line-height: 30px;
+}
+
+/* Serviços */
+
+.service-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-box i{
+    font-size: 36px;
+    color: #0f1026;
+    margin-bottom: 20px;
+}
+
+.service-box h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.service-box:hover > i, 
+.service-box:hover > h3 {
+    color: #4973f2; 
+}
+
+.service-box i, .service-box h3 {
+    transition: 1s;
+}
+
+/* Time */
+
+#team-area .card {
+    margin-bottom:65px;
+}
+
+/* Trabalhe conosco */
+
+#apply-area {
+    height:  500px;
+}
+
+#apply-area .row,
+#apply-img,
+#apply-content {
+    height: 100%;
+}
+
+#apply-img {
+    background-image: url("./img/empresa.jpg");
+    background-size: cover;
+}
+
+#apply-content {
+    background-color: black;
+    padding: 0 5%;
+}
+
+#apply-content h4,
+#apply-content p {
+    color: white;
+}
+
+#apply-content h4{
+    margin-top: 15%;
+}
+
+#apply-content .btn{
+    background-color: rgba(255, 255, 255, 0);
+    border: 3px solid white;
+    color: white;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+#apply-content .btn:hover {
+    background-color: #4973f2; 
+    border-color:#4973f2;
+}
