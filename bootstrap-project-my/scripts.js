@@ -70,5 +70,5 @@ function returnHtmlElementId(name) {
 }
 
 // Parallax
-$( "#data-area" ).parallax({imageSrc: 'img/cidadeparallax.png'})
-$( "#apply-content" ).parallax({imageSrc: 'img/pattern.png'})
+// $( "#data-area" ).parallax({imageSrc: 'img/cidadeparallax.png'})
+// $( "#apply-content" ).parallax({imageSrc: 'img/pattern.png'})

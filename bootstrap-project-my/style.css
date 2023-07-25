@@ -90,6 +90,13 @@ p, li {
 
 /* Dados */
 
+ #data-area { /* parallax */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    background-image: url('img/cidadeparallax.png');
+}
 #data-area p{
     font-size: 20px;
     color: white;
@@ -107,6 +114,7 @@ p, li {
     height:  500px;
 }
 
+
 #apply-area .row,
 #apply-img,
 #apply-content {
@@ -118,7 +126,13 @@ p, li {
     background-size: cover;
 }
 
-#apply-content {
+
+#apply-content { /* parallax */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    background-image: url('img/pattern.png');
     padding: 0 5%;
 }
 
