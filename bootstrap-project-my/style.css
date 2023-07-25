@@ -89,12 +89,11 @@ p, li {
 }
 
 /* Dados */
+
 #data-area p{
     font-size: 20px;
     color: white;
 }
-
-
 
 /* Time */
 
@@ -144,5 +143,78 @@ p, li {
     background-color: #4973f2; 
     border-color:#4973f2;
 }
+
+/* Portfólio */
+
+.project-box {
+    margin-bottom: 30px;
+}
+
+#filter-btn-box {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#portfolio-area #filter-btn-box .filter-btn {
+    color: #0f1026;
+    border: 1px solid #0f1026;
+    background-color: transparent;
+    text-transform: none;
+    margin: 0 15px;
+    min-width: 100px;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+}
+
+#portfolio-area #filter-btn-box .filter-btn.active, #portfolio-area #filter-btn-box .filter-btn:hover {
+    color: #fff;
+    background-color: #4973f2;
+    border-color: #4973f2;
+}
+
+/* News Letter */
+
+#news-area {
+    text-align: center;
+    background-color: #ffffff;
+}
+
+#news-area p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+#email-input {
+    border-radius: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid #4973f2;
+    display: inline;
+    box-sizing: border-box;
+    width: 40%;
+    height: 40px;
+}
+
+#news-btn {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #4973f2;
+    background-color: #4973f2;
+    text-transform: uppercase;
+    color: #f9f9f9;
+    height: 40px;
+    padding: 0 30px;
+    margin-left: -130px;
+    position: absolute;
+    transition: .5s;
+}
+
+#news-btn:hover {
+    background-color: #f9f9f9;
+    color: #4973f2;
+}
+
 
 

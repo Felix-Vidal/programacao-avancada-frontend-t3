@@ -1,7 +1,23 @@
 htmlIdArray = ["circleA", "circleB", "circleC", "circleD"];
-circleInternSizeNumber = [27, 66, 4, 222, 60];
+circleInternSizeNumber = [100, 66, 4, 222, 60];
 
-createCirclesUsingArrays(htmlIdArray, circleInternSizeNumber);
+
+
+// Iniciando o loader quando o usuario chega no elemento
+let dataAreaOffset = $('#data-area').offset();
+let stop = 0;
+
+$(window).scroll(function(e){
+
+    let scroll = $(window).scrollTop();
+
+    if(scroll > (dataAreaOffset.top - 500) && stop == 0){
+      createCirclesUsingArrays(htmlIdArray, circleInternSizeNumber);
+
+      stop = 1;
+    }
+});
+
 
 function createCirclesUsingArrays(htmlIdArray, circleInternSizeNumber) {
     for (let i = 0; i < htmlIdArray.length; i++) {
